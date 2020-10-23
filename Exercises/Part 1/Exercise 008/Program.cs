@@ -6,7 +6,7 @@ namespace exercise_08
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Give input!");
+            Console.WriteLine("What is your name?");
             string Ada = Console.ReadLine();
             Console.WriteLine("Hello "+ Ada + "!");
 
