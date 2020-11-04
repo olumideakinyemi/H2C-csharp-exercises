@@ -6,8 +6,11 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-
-    }
-  }
+      Console.WriteLine("Give double value");
+      string userInput = Console.ReadLine();
+      double doubleValue = Convert.ToDouble(userInput);
+      Console.WriteLine("You gave " + doubleValue);
+        
+    } 
+  }   
 }
