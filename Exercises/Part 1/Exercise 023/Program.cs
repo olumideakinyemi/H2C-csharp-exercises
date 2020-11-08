@@ -19,8 +19,8 @@ namespace exercise_23
       Console.WriteLine ( FirstintValue + " - " + SecondintValue + " = " + subtract);
       int multiply = FirstintValue * SecondintValue;
       Console.WriteLine ( FirstintValue + " * " + SecondintValue + " = " + multiply);
-      //double division = (FirstintValue + SecondintValue);
-      Console.WriteLine ( FirstintValue + " / " + SecondintValue + " = " + division);
+      double division = ((double)FirstintValue / SecondintValue);
+      Console.WriteLine (FirstintValue + " / " + SecondintValue + " = " + division);
 
     }
   }
