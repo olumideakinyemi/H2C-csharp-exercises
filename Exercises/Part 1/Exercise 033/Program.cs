@@ -6,7 +6,18 @@ namespace exercise_33
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.WriteLine("Give the first string:");
+      string userInput = Console.ReadLine();
+      Console.WriteLine ("Give the second string:");
+      string SeconduserInput = Console.ReadLine();
+if(userInput == SeconduserInput)
+{
+     Console.WriteLine("Echo!");       
+}
+else
+{
+     Console.WriteLine("Nope!");       
+}
 
     }
   }
