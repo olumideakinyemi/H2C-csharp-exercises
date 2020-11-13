@@ -6,22 +6,16 @@ namespace exercise_43
   {
     public static void Main(string[] args)
     {
-      int FirstuserInput = Convert.ToInt32(Console.ReadLine());
-      int SeconduserInput = Convert.ToInt32(Console.ReadLine());
-      if (FirstuserInput > SeconduserInput)
+      int userInput = Convert.ToInt32(Console.ReadLine());
+      if (userInput < 0)
       {
-         Console.WriteLine ( FirstuserInput + " is grEater than " + SeconduserInput + "." );
-      }
-      else if (FirstuserInput < SeconduserInput)
-      {
-         Console.WriteLine (FirstuserInput + " is less than " + SeconduserInput + ".");  
+         Console.WriteLine ( userInput * -1 );
       }
       else
       {
-         Console.WriteLine (FirstuserInput + " is equal to " + SeconduserInput + "." );
+         Console.WriteLine (userInput);
       }
-            
-        
+                
     }
      
   }
