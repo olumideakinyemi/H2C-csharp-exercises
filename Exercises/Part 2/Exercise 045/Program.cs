@@ -8,12 +8,11 @@ namespace exercise_45
     {
       int input = Convert.ToInt32(Console.ReadLine()); 
       int number = 0;
-      //input = number;
 
       while (number <= input) 
       {
-      Console.WriteLine(number);
-      number++;
+        Console.WriteLine(number);
+        number++;
       }
       
     }
