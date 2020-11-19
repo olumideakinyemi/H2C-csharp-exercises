@@ -7,8 +7,15 @@ namespace exercise_46
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-
+      int input = Convert.ToInt32(Console.ReadLine());
+      int number = 100;
+     
+      while (input <= number)
+      {
+            
+        Console.WriteLine(input);
+        input++;
+      }
     }
   }
 }
