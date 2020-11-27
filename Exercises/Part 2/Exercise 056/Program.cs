@@ -6,10 +6,14 @@ namespace exercise_56
   {
     public static void Main(String[] args)
     {
-
+       string myWord = Word();
+       Console.WriteLine(myWord);
     }
 
     // Write your method here:
-
+    public static string Word()
+    {
+        return "great"; 
+    }
   }
 }
