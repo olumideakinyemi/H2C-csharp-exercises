@@ -15,13 +15,13 @@ namespace exercise_52
     public static void PrintFromNumberToOne(int number){
     {
      int count = 1;
-     int usernumber = 0;
+     //int usernumber = 1;
      do
      {
-         Console.WriteLine(count);
-         count++;
+         Console.WriteLine(number);
+         number = number - 1;
     }
-     while (usernumber < count);
+     while (count <= number);
     }
    }
   }
