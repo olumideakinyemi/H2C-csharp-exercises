@@ -17,7 +17,22 @@ namespace exercise_69
         }
         list.Add(input);
       }
-
+      Console.WriteLine("From where?");
+      int inputuserFrom = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Where to?");
+      int inputuserTo = Convert.ToInt32(Console.ReadLine());
+      PrintSmallerThan(list, inputuserTo);
     }
+
+    public static void PrintSmallerThan(List<int> numbers, int threshold) 
+       {
+         foreach(int number in numbers)
+       {
+       if (number < threshold) 
+       {
+        Console.WriteLine(number);
+       }
+    }
+  }
   }
 }
