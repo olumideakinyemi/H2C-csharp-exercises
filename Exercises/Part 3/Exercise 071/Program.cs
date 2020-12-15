@@ -16,8 +16,8 @@ namespace exercise_71
           break;
         }
         list.Add(input);
-      }
-      Console.WriteLine("Search for?");
+        }
+         Console.WriteLine("Search for?");
          int userinputSearch = Convert.ToInt32(Console.ReadLine());
          int index = list.IndexOf(userinputSearch);
          if (index != -1);
