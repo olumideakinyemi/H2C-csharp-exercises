@@ -18,27 +18,15 @@ namespace exercise_76
      numbers.Add(1);
      Console.WriteLine(Sum(numbers));
     }
-    public static int Sum(List<int> numbers)
+    public static int Sum (List<int> numbers)
      {
-        if (numbers.Count == 0)
-
-        {
-            return 1;
-        }
-
-       
         int sum = 0;
-         foreach (int number in numbers)
-         
-       {
-          sum = sum + number;
-       {
-        
-         return 1 * sum;
+        foreach (int number in numbers)
+        {
+            sum = sum + number;
+        }
+             return sum;
+     
        }
      }
 }
-}
-}
-
-
