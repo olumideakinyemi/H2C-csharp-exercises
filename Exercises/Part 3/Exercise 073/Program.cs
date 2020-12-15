@@ -16,8 +16,17 @@ namespace exercise_73
           break;
         }
         list.Add(input);
-      }
-
-    }
+        }
+         Console.WriteLine( "Sum: " + Sum (list));
+        }
+        public static int Sum (List<int> numbers)
+        {
+        int sum = 0;
+        foreach (int number in numbers)
+        {
+            sum = sum + number;
+        }
+             return sum;
+       }
   }
 }
