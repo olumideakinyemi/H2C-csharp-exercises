@@ -8,13 +8,23 @@ namespace exercise_81
     public static void Main(string[] args)
     {
       // You can test your method here
+      int[] array = {5, 1, 3, 4, 2};
+      PrintNeatly(array);
 
-      string[] arrayOfStrings = {"Mike L.", "Mike P.", "Mike V."};
-double[] arrayOfFloatingpoints = {1.20, 3.14, 100.0, };
-
-for (int i = 0; i < arrayOfFloatingpoints.Length; i++) {
-    Console.WriteLine(arrayOfStrings[i] + " " +  arrayOfFloatingpoints[i]);
-}
-}
+    }
+    public static void PrintNeatly(int[]array)
+    {
+     int index = 0;
+     while ( index < array.Length)  
+     {    
+       int number = array[index];
+       Console.Write(number + ", ");
+       index = index + 1;
+               
+     }
+     
+         Console.WriteLine (" ");
+    }
+    
   }
 }
