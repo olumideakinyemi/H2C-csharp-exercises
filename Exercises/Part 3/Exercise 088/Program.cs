@@ -7,19 +7,33 @@ namespace exercise_88
   {
     public static void Main(string[] args)
     {
-      
-        while(true)
+      while (true)
+      {
+        string Userinput = Console.ReadLine();
+        string[] pieces = Userinput.Split(' ');
+        if (Userinput == "")
+        {
+          break;
+        }
+        for (int i = 0; i < pieces.Length; i++)
+        {
+          if (Userinput.Contains(" ")) 
           {
-                string Userinput = Console.ReadLine();
-                string[] pieces = Userinput.Split(' ');
-                    if( Userinput == "" )
-                    {
-                    break;
-                    }
-                int pituus = pieces.Length;
-                Console.WriteLine(pieces[pituus]);
-                }
+            Console.WriteLine(pieces[i]);
+          }
+          if  (!Userinput.Contains(" "))
+          {
+              
+          }
+          else
+          {
+            break;
+          }
+            
+        }
+        
+          
+      }
     }
   }
-    }
-  
+}
