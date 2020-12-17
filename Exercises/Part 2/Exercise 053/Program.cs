@@ -7,7 +7,9 @@ namespace exercise_53
     public static void Main(String[] args)
     {
       // Call your method here:
+      Console.WriteLine("Give numerator!");
       int numerator = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Give denominator!");
       int denomirator = Convert.ToInt32(Console.ReadLine());
       double divresult = Division(numerator,denomirator);
       Console.WriteLine(divresult);
