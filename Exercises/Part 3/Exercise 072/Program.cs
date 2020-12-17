@@ -11,7 +11,7 @@ namespace exercise_72
       while (true)
       {
         int input = Convert.ToInt32(Console.ReadLine());
-        if (input == -1)
+        if (input == 9999)
         {
           break;
         }
@@ -23,11 +23,20 @@ namespace exercise_72
        int number = list[i];
        if (smallest > number) {
         smallest = number;
+        int index = list.IndexOf(smallest);
+        if (index != -1);
+        for (int i = 0; i <list.Count; i++)
+          {
+            int number = list[i];
+            if (smallest == number)
+            {
        }
       }
 
        Console.WriteLine("The smallest number: " + smallest);
+       Console.WriteLine(" is at index " + i );
     }
   }
 }
- 
+ }
+}

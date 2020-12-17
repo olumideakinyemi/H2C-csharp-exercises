@@ -7,10 +7,38 @@ namespace exercise_87
   {
     public static void Main(string[] args)
     {
-
+     Console.WriteLine("Write something.");
+      while (true)
+      {
+        string input = Console.ReadLine();
+        string[] pieces = input.Split(' ');
+        if (input == "")
+        {
+          break;
+        }
+        for (int i = 0; i < pieces.Length; i++)
+        {
+           Console.WriteLine(pieces[i]);
+        }
+          if (input.Contains("av")) 
+          {
+            Console.WriteLine(input.Contains("av"));
+          }
+          if  (!input.Contains("av"))
+          {
+              
+          }
+          else
+          {
+            break;
+          }
+            
+        }
+        
+          
+      }
     }
-
   }
 
-}
+
 
