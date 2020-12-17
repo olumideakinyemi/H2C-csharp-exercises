@@ -7,7 +7,6 @@ namespace exercise_87
   {
     public static void Main(string[] args)
     {
-     Console.WriteLine("Write something.");
       while (true)
       {
         string input = Console.ReadLine();
