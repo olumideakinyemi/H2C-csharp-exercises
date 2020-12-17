@@ -23,17 +23,17 @@ namespace exercise_79
 
       // Implement the search functionality here
 
-         for (int i = 0; i < array.Length; i++)
-          {
-            int number = array[i];
-          if (searching == number)
-         {
+      for (int i = 0; i < array.Length; i++)
+      {
+       int number = array[i];
+       if (searching == number)
+       {
            Console.WriteLine(searching + " is at index " + i );
-         }
+       }
  
-    }
+      }
 
+    }
   }
-}
 
 }
