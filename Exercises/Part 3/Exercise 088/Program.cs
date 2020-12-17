@@ -9,31 +9,20 @@ namespace exercise_88
     {
       while (true)
       {
-        string Userinput = Console.ReadLine();
-        string[] pieces = Userinput.Split(' ');
-        if (Userinput == "")
-        {
-          break;
-        }
-        for (int i = 0; i < pieces.Length; i++)
-        {
-          if (Userinput.Contains(" ")) 
-          {
-            Console.WriteLine(pieces[i]);
-          }
-          if  (!Userinput.Contains(" "))
-          {
-              
-          }
-          else
-          {
-            break;
-          }
-            
-        }
+        while(true)
+                {
+                string Userstr = Console.ReadLine();
+                string[] pieces = userstring.Split(' ');
+                    if( userstring == "" )
+                    {
+                    break;
+                    }
+                int pituus = pieces.Length;
+                Console.WriteLine(pieces[pituus-1]);
+                }
+    }
+  }
+    }
         
           
       }
-    }
-  }
-}
