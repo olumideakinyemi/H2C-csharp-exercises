@@ -9,35 +9,22 @@ namespace exercise_87
     {
       while (true)
       {
-        string input = Console.ReadLine();
-        string[] pieces = input.Split(' ');
-        if (input == "")
+        string Userinput = Console.ReadLine();
+        string[] pieces = Userinput.Split(' ');
+        if (Userinput == "")
         {
           break;
         }
         for (int i = 0; i < pieces.Length; i++)
         {
-           Console.WriteLine(pieces[i]);
-        }
-          if (input.Contains("av")) 
+          if (pieces[i].Contains("av")) 
           {
-            Console.WriteLine(input.Contains("av"));
-          }
-          if  (!input.Contains("av"))
-          {
-              
-          }
-          else
-          {
-            break;
-          }
-            
+            Console.WriteLine(pieces[i]);
+          }    
         }
         
           
       }
     }
   }
-
-
-
+}
